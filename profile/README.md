@@ -50,6 +50,8 @@ We like **systems**.
 
 ## 🔨 Modern Tinkers
 
+![Header](https://i.imgur.com/jc5Dp0F.png)
+
 > **Build it from parts. Melt it. Cast it. Upgrade it.**
 
 **Modern Tinkers** is a unified NeoForge bundle that ports and consolidates **Tinkers' Construct** and selected companion projects for Minecraft 1.21.1.
@@ -92,6 +94,8 @@ Runtime validation, rendering work, multiplayer synchronization testing, optiona
 ---
 
 ## 🐔 Modern Chickens
+
+![Header Image](https://i.imgur.com/VNccqK6.png)
 
 > **Breed it. Roost it. Automate it. Avian domination.**
 
@@ -139,6 +143,8 @@ Integrated content includes support for resources from mods such as **Mekanism, 
 ---
 
 ## ⚔️ Modern Companions
+
+![Header](https://i.imgur.com/yXtaZqi.png)
 
 > **Build a party, not just a pet collection.**
 
@@ -218,6 +224,8 @@ Optional integrations include:
 ---
 
 ## 🏚️ The Labrinth
+
+![Banner](https://i.imgur.com/ISs67HO.png)
 
 > **There is no end. There is only another hallway.**
 
