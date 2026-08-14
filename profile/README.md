@@ -1,7 +1,7 @@
 <div align="center">
 
 # MODERN MODS
- 
+
 ![Header](https://i.imgur.com/RMD8BG0.png)
 
 ### Modern Minecraft. Bigger systems.
@@ -13,7 +13,7 @@ Modernized classics, expanded gameplay systems, ambitious new worlds, and mods d
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=flat-square)
 ![NeoForge](https://img.shields.io/badge/Loader-NeoForge-EF9D31?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-21-E76F00?style=flat-square)
-![Projects](https://img.shields.io/badge/Projects-4-7289DA?style=flat-square)
+![Projects](https://img.shields.io/badge/Projects-5-7289DA?style=flat-square)
 
 </div>
 
@@ -33,6 +33,7 @@ Our projects currently cover:
 
 * Modular tool crafting and material progression
 * Resource breeding and automation
+* Nuclear logistics, radioactive containment, and specialized storage
 * RPG companions and party systems
 * Magic, combat, equipment, and character progression
 * Procedural dimensions and large-scale exploration
@@ -50,52 +51,7 @@ We like **systems**.
 
 # Our Projects
 
-## 🔨 Modern Tinkers
-
-![Header](https://i.imgur.com/jc5Dp0F.png)
-
-> **Build it from parts. Melt it. Cast it. Upgrade it.**
-
-**Modern Tinkers** is a unified NeoForge bundle that ports and consolidates **Tinkers' Construct** and selected companion projects for Minecraft 1.21.1.
-
-It brings modular tool construction, materials, smelteries, casting, modifiers, armor, shields, ranged equipment, crafting stations, alloys, fluids, world content, and progression into one modern project.
-
-### Highlights
-
-* Modular multi-part tools
-* Material-dependent stats and behavior
-* Tinker Station tool assembly
-* Part Builder
-* Modifier Worktable
-* Melters
-* Alloys
-* Smelteries
-* Casting tables and basins
-* Molten materials and fluids
-* Custom modifiers
-* Armor and shields
-* Arrows and ranged equipment
-* Cobalt world generation
-* Material-aware melting and casting
-* Special tool interactions
-* Server-authoritative crafting systems
-* Consolidated content from multiple classic Tinkers ecosystem projects
-
-### Current Status
-
-Modern Tinkers has a **buildable NeoForge 1.21.1 port** with its major static registries and several core gameplay systems operational.
-
-Current version:
-
-`1.2.10`
-
-Runtime validation, rendering work, multiplayer synchronization testing, optional integrations, and full gameplay parity remain ongoing.
-
-**[View Modern Tinkers](https://github.com/Modern-Mods/ModernTinkers)**
-
----
-
-## 🐔 Modern Chickens
+## Modern Chickens
 
 ![Header Image](https://i.imgur.com/VNccqK6.png)
 
@@ -144,7 +100,7 @@ Integrated content includes support for resources from mods such as **Mekanism, 
 
 ---
 
-## ⚔️ Modern Companions
+## Modern Companions
 
 ![Header](https://i.imgur.com/yXtaZqi.png)
 
@@ -225,7 +181,210 @@ Optional integrations include:
 
 ---
 
-## 🏚️ The Labrinth
+## Isotope Logistics
+
+![Header](https://i.imgur.com/wUeE0ga.png)
+
+> **Contain it. Stabilize it. Transport it. Protect it.**
+
+**Isotope Logistics** is a Minecraft 1.21.1 NeoForge addon for **Mekanism** that gives radioactive chemicals and radioisotopes a complete transport, containment, processing, and specialized storage system.
+
+The project is built around one central rule:
+
+> **Active radioisotopes are dangerous material, not ordinary inventory items.**
+
+Instead of mixing radioactive materials into ordinary logistics, Isotope Logistics gives nuclear infrastructure dedicated systems for handling them safely.
+
+Radioactive chemicals can be transported directly through isolated nuclear frequencies, encapsulated into fixed packages, phase-locked for safe transport, stored inside specialized radioactive containers, or placed into optional radioactive digital-storage networks.
+
+### Highlights
+
+* Dedicated Nuclear Entangloporter frequencies
+* Wireless nuclear item, energy, fluid, chemical, and heat transport
+* Isolated nuclear frequency system
+* Active Radioisotope Capsules
+* Phase-Locked Radioisotope Capsules
+* Fixed 1,000-unit radioactive chemical packages
+* Radiological Encapsulator
+* Isotopic Phase Controller
+* Chemical Reconstitution Chamber
+* Radioactive Bins
+* Radioactive Chemical Tanks
+* Radioactive Fluid Tanks
+* Basic through Creative radioactive storage tiers
+* Mekanism radiation integration
+* Radiation exposure from improperly handled active capsules
+* Safe phase-locked transport and ordinary storage
+* Isotope Neutralizer emergency radiation treatment
+* HDPE and lead-based containment progression
+* Dedicated radioactive storage boundaries
+* JEI machine recipe integration
+* Optional Applied Energistics 2 radioactive storage cells
+* Optional Refined Storage radioactive storage disks
+* High-capacity radioactive digital storage tiers
+
+### Radioisotope Workflow
+
+The core radioactive-material loop moves chemicals through controlled containment states:
+
+```text
+Radioactive Chemical
+        ↓
+Radiological Encapsulator
+        ↓
+Active Radioisotope Capsule
+        ↓
+Isotopic Phase Controller
+        ↓
+Phase-Locked Radioisotope Capsule
+```
+
+Each capsule contains exactly **1,000 units** of a radioactive Mekanism chemical.
+
+**Active Capsules** are intended for radioactive processing and dedicated nuclear storage.
+
+**Phase-Locked Capsules** are inert and can be safely carried or placed into ordinary item storage.
+
+When the chemical is needed again, a Phase-Locked Capsule can be excited back into its active state and processed through the **Chemical Reconstitution Chamber**, recovering both the original radioactive chemical and the reusable Empty Containment Capsule.
+
+### Nuclear Entangloporter
+
+The **Nuclear Entangloporter** provides a dedicated wireless transport network for nuclear infrastructure.
+
+It behaves similarly to Mekanism's Quantum Entangloporter while using a completely separate nuclear frequency type.
+
+Normal Quantum Entangloporters cannot see or connect to nuclear frequencies.
+
+Nuclear Entangloporters can transport:
+
+* Items
+* Energy
+* Fluids
+* Chemicals
+* Heat
+
+They can also directly handle radioactive Mekanism chemicals such as nuclear waste and polonium.
+
+This allows reactors, processing facilities, radioactive storage, and other nuclear installations to build their own logistics network without turning ordinary Entangloporter frequencies into radioactive transport systems.
+
+### Radioactive Storage
+
+Isotope Logistics adds dedicated radioactive variants of Mekanism-style storage blocks across multiple tiers.
+
+These include:
+
+* Radioactive Bins
+* Radioactive Fluid Tanks
+* Radioactive Chemical Tanks
+
+Radioactive Bins are specifically designed to hold **Active Radioisotope Capsules**.
+
+Breaking a Radioactive Bin while it still contains active capsules releases radiation at its location, making safe handling and phase control part of the logistics system rather than merely an inventory restriction.
+
+### Radiation Safety
+
+Active Radioisotope Capsules participate directly in Mekanism's radiation system.
+
+Active capsules:
+
+* Irradiate unprotected players carrying them
+* Radiate their location when dropped
+* Require dedicated radioactive storage
+* Can release radiation when stored improperly or when a loaded Radioactive Bin is broken
+
+Phase-Locked Capsules are inert and are the normal form for safe transport and general-purpose storage.
+
+The **Isotope Neutralizer** provides an emergency treatment path capable of clearing a player's accumulated Mekanism radiation dose after exposure has stopped.
+
+### Optional Digital Storage
+
+Isotope Logistics can also extend radioactive handling into digital storage networks.
+
+Optional integrations include:
+
+* Applied Energistics 2
+* Refined Storage
+
+When installed, these integrations provide dedicated radioactive storage cells and disks that accept valid **Active Radioisotope Capsules**.
+
+Ordinary AE2 cells and Refined Storage disks remain separated from active radioactive material.
+
+Phase-Locked Capsules can instead be stored normally.
+
+This maintains a deliberate boundary between ordinary item storage and active nuclear material.
+
+### Progression
+
+The intended progression follows:
+
+```text
+HDPE + Lead Containment
+        ↓
+Fission Chemicals
+        ↓
+Encapsulation
+        ↓
+Phase Control
+        ↓
+Dedicated Radioactive Storage
+        ↓
+High-Capacity Nuclear Logistics
+```
+
+Isotope Logistics does not replace Mekanism's radiation system.
+
+It builds an infrastructure layer around it.
+
+**[View Isotope Logistics](https://github.com/nuclearmekanism/NuclearEntangloporter)**
+
+---
+
+## Modern Tinkers
+
+![Header](https://i.imgur.com/jc5Dp0F.png)
+
+> **Build it from parts. Melt it. Cast it. Upgrade it.**
+
+**Modern Tinkers** is a unified NeoForge bundle that ports and consolidates **Tinkers' Construct** and selected companion projects for Minecraft 1.21.1.
+
+It brings modular tool construction, materials, smelteries, casting, modifiers, armor, shields, ranged equipment, crafting stations, alloys, fluids, world content, and progression into one modern project.
+
+### Highlights
+
+* Modular multi-part tools
+* Material-dependent stats and behavior
+* Tinker Station tool assembly
+* Part Builder
+* Modifier Worktable
+* Melters
+* Alloys
+* Smelteries
+* Casting tables and basins
+* Molten materials and fluids
+* Custom modifiers
+* Armor and shields
+* Arrows and ranged equipment
+* Cobalt world generation
+* Material-aware melting and casting
+* Special tool interactions
+* Server-authoritative crafting systems
+* Consolidated content from multiple classic Tinkers ecosystem projects
+
+### Current Status
+
+Modern Tinkers has a **buildable NeoForge 1.21.1 port** with its major static registries and several core gameplay systems operational.
+
+Current version:
+
+`1.2.10`
+
+Runtime validation, rendering work, multiplayer synchronization testing, optional integrations, and full gameplay parity remain ongoing.
+
+**[View Modern Tinkers](https://github.com/Modern-Mods/ModernTinkers)**
+
+---
+
+## The Labrinth
 
 ![Banner](https://i.imgur.com/ISs67HO.png)
 
@@ -305,12 +464,13 @@ Future development will continue expanding custom blocks, entities, environmenta
 
 Our projects do very different things, but they share the same development philosophy.
 
-| Project               | Focus                                            | Type                    |
-| --------------------- | ------------------------------------------------ | ----------------------- |
-| **Modern Tinkers**    | Modular crafting, materials, smeltery, equipment | Modernized classic      |
-| **Modern Chickens**   | Resource breeding, machines, automation          | Modernized classic      |
-| **Modern Companions** | RPG companions, combat, progression, jobs        | Reimagined and expanded |
-| **The Labrinth**      | Procedural exploration dimension                 | Original project        |
+| Project               | Focus                                               | Type                    |
+| --------------------- | --------------------------------------------------- | ----------------------- |
+| **Modern Tinkers**    | Modular crafting, materials, smeltery, equipment    | Modernized classic      |
+| **Modern Chickens**   | Resource breeding, machines, automation             | Modernized classic      |
+| **Isotope Logistics** | Nuclear transport, containment, radioactive storage | Original Mekanism addon |
+| **Modern Companions** | RPG companions, combat, progression, jobs           | Reimagined and expanded |
+| **The Labrinth**      | Procedural exploration dimension                    | Original project        |
 
 Together, they represent the kinds of projects Modern Mods wants to build:
 
@@ -354,7 +514,9 @@ Where it makes sense, our ports become expansions.
 
 Mods rarely exist alone.
 
-Modern Mods projects are designed with interoperability in mind, including optional support for other mods without forcing unnecessary dependencies.
+Modern Mods projects are designed with interoperability in mind.
+
+Some projects provide optional compatibility with other mods, while dedicated addon projects may intentionally build upon another mod when that dependency is fundamental to the project.
 
 Depending on the project, this can include systems such as:
 
@@ -365,13 +527,17 @@ Depending on the project, this can include systems such as:
 * Curios
 * Sophisticated Backpacks
 * Mekanism
+* Applied Energistics 2
+* Refined Storage
 * Ars Nouveau
 * Iron's Spells 'n Spellbooks
 * Epic Fight
 * TacZ
-* Other resource, magic, combat, and automation mods
+* Other resource, storage, magic, combat, and automation mods
 
-Optional integrations should remain optional.
+Where an integration is optional, it should remain optional.
+
+Dedicated addon projects such as **Isotope Logistics** may instead require their parent mod while keeping secondary integrations optional.
 
 ---
 
@@ -430,6 +596,8 @@ Current primary development target:
 
 Individual repositories may have additional dependency or NeoForge version requirements.
 
+For example, **Isotope Logistics** requires Mekanism and can optionally integrate with Applied Energistics 2 and Refined Storage.
+
 ---
 
 # For Modpack Developers
@@ -478,6 +646,7 @@ Modern Mods contains a mixture of:
 * Ports
 * Rebrands
 * Adaptations
+* Addons
 * Compatibility code
 * Assets
 * References to older open-source projects
@@ -502,6 +671,8 @@ Some deserve to be rebuilt.
 
 Some deserve to be expanded into something much bigger.
 
+Some deserve entirely new systems built around the mods we already love.
+
 And sometimes we just want to build a world made entirely out of hallways.
 
 <div align="center">
@@ -510,6 +681,6 @@ And sometimes we just want to build a world made entirely out of hallways.
 
 **Modern Minecraft. Bigger systems.**
 
-`CRAFT` · `AUTOMATE` · `RECRUIT` · `EXPLORE`
+`CRAFT` · `AUTOMATE` · `CONTAIN` · `RECRUIT` · `EXPLORE`
 
 </div>
