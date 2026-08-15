@@ -422,51 +422,7 @@ ModernFoundry is under active development. The current source contains a broad i
 
 Expect balancing changes, API changes, content adjustments, and breaking changes while the project is completed. Client rendering, dedicated-server startup, fresh-world progression, world generation, multiplayer synchronization, smeltery transactions, and optional integrations should be tested in-game in addition to running automated checks.
 
-## Requirements
 
-- Minecraft 1.21.1
-- NeoForge 21.1.x; the current Gradle configuration is pinned to NeoForge 21.1.228
-- Java 21 for development and Gradle builds
-- Mantle/MantleRevived, required by the current build and mod metadata
-- JEI 19.x, optional but supported for recipe lookup and transfer integration
-- JSON Things 0.9.9, optional when its compatibility integration is installed
-
-ModernFoundry is designed as one consolidated mod bundle. Optional integrations are not required for the base tool, material, or foundry systems.
-
-## Building and running
-
-The repository includes the Gradle wrapper. From the repository root on Windows:
-
-```text
-.\gradlew.bat build
-.\gradlew.bat test
-.\gradlew.bat runClient
-.\gradlew.bat runServer
-.\gradlew.bat runData
-```
-
-The current build declares MantleRevived as a local file dependency. Before building, provide a matching jar under `libs/` using the filename selected by `mantle_version` in `gradle.properties`.
-
-Generated recipes, tags, loot, advancements, material data, tool definitions, station layouts, and other generated resources belong under `src/generated/resources`. Do not edit generated files directly; change the corresponding data provider under `src/main/java` and run the data task again.
-
-For a clean local verification, use:
-
-```text
-.\gradlew.bat clean build --console=plain --no-daemon
-```
-
-Automated tests cover core material managers, tool definitions, tool statistics, tool-stack data, modifier data, recipes, and related serialization paths. They should be paired with client, dedicated-server, fresh-world, and multiplayer smoke tests before calling a feature complete.
-
-## Repository layout
-
-```text
-src/main/java/       Runtime code, registries, menus, networking, and data providers
-src/main/resources/  Hand-authored assets, translations, metadata, and base data
-src/generated/       Datagen output; regenerated rather than edited by hand
-src/test/             Automated tests and Minecraft test fixtures
-gradle.properties     Minecraft, NeoForge, dependency, and project version settings
-build.gradle          NeoForge build, run configurations, dependencies, and packaging
-```
 
 ## Credits and attribution
 
