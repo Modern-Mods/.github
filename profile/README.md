@@ -13,7 +13,7 @@ Modernized classics, expanded gameplay systems, ambitious new worlds, and mods d
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=flat-square)
 ![NeoForge](https://img.shields.io/badge/Loader-NeoForge-EF9D31?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-21-E76F00?style=flat-square)
-![Projects](https://img.shields.io/badge/Projects-5-7289DA?style=flat-square)
+![Projects](https://img.shields.io/badge/Projects-6-7289DA?style=flat-square)
 
 </div>
 
