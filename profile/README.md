@@ -553,6 +553,75 @@ Future development will continue expanding custom blocks, entities, environmenta
 **[View The Labrinth](https://github.com/Modern-Mods/TheLabrinth)**
 
 ---
+![Hilt](https://i.imgur.com/34pQrYN.png)
+
+# Hilt
+
+### Shared foundations. Modern mods.
+
+**A shared library and compatibility layer for Modern Mods and other NeoForge projects.**
+
+
+---
+
+## About Hilt
+
+**Hilt** is a shared Minecraft modding library maintained by **Modern Mods** for **Minecraft 1.21.1 and NeoForge**.
+
+It provides common code, APIs, utilities, data systems, registration infrastructure, and other shared foundations used across projects that would otherwise need to duplicate the same functionality.
+
+Hilt is primarily a **developer dependency** rather than a standalone gameplay mod.
+
+Its purpose is simple:
+
+> **Put the shared machinery in one place so the mods built on top of it can focus on their own systems.**
+
+Hilt also carries forward portions of the architecture and implementation lineage of **Mantle** and related Slime Knights projects while adapting that foundation for the modern NeoForge ecosystem.
+
+---
+
+## What Hilt Is For
+
+Hilt provides reusable infrastructure for systems commonly shared between larger Minecraft mods.
+
+Depending on the consuming project, this can include foundations for:
+
+* Registries and content registration
+* Data-driven content
+* Materials and material-related systems
+* Recipes and serialization
+* Networking
+* Menus and screens
+* Fluid-related systems
+* Tags and resource handling
+* Datagen
+* Common utilities
+* Mod interoperability
+* Client and server helpers
+* Shared APIs
+* Extensible systems for additional Modern Mods projects
+
+Not every Hilt system is necessarily used by every dependent mod.
+
+The goal is to provide a stable shared foundation without forcing unrelated gameplay systems into the library itself.
+
+---
+
+## Used by Modern Mods
+
+Hilt is developed as part of the broader **Modern Mods** ecosystem.
+
+Modern Mods builds substantial NeoForge projects centered around crafting, automation, progression, exploration, interoperability, and other large gameplay systems.
+
+Hilt exists underneath those projects as shared infrastructure rather than as another gameplay-focused mod.
+
+### HIlt
+
+**Shared foundations. Modern mods.**
+
+[View the Hilt repository](https://github.com/Modern-Mods/Hilt)
+
+---
 
 # One Organization, Different Kinds of Mods
 
