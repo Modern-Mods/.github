@@ -15,6 +15,13 @@ Modernized classics, expanded gameplay systems, ambitious new worlds, and mods d
 ![Java](https://img.shields.io/badge/Java-21-E76F00?style=flat-square)
 ![Projects](https://img.shields.io/badge/Projects-6-7289DA?style=flat-square)
 
+[![Modern Foundry](https://img.shields.io/github/v/release/Modern-Mods/ModernFoundry?style=flat-square&label=Modern%20Foundry&color=62B47A)](https://github.com/Modern-Mods/ModernFoundry/releases/latest)
+[![Modern Chickens](https://img.shields.io/github/v/release/Modern-Mods/ModernChickens?style=flat-square&label=Modern%20Chickens&color=F4C542)](https://github.com/Modern-Mods/ModernChickens/releases/latest)
+[![Modern Companions](https://img.shields.io/github/v/release/Modern-Mods/ModernCompanions?style=flat-square&label=Modern%20Companions&color=E58AAE)](https://github.com/Modern-Mods/ModernCompanions/releases/latest)
+[![Hilt](https://img.shields.io/github/v/release/Modern-Mods/Hilt?style=flat-square&label=Hilt&color=8B78C6)](https://github.com/Modern-Mods/Hilt/releases/latest)
+[![The Labrinth](https://img.shields.io/github/v/release/Modern-Mods/Labyrinth?style=flat-square&label=The%20Labrinth&color=59656F)](https://github.com/Modern-Mods/Labyrinth/releases/latest)
+[![Isotope Logistics](https://img.shields.io/github/v/release/Modern-Mods/IsotopeLogistics?style=flat-square&label=Isotope%20Logistics&color=4AA3A2)](https://github.com/Modern-Mods/IsotopeLogistics/releases/latest)
+
 </div>
 
 ---
