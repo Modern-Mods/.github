@@ -1,14 +1,14 @@
 <div align="center">
 
 # MODERN MODS
-
-### Modern Minecraft. Bigger systems.
+[![Modern Mods](https://img.shields.io/badge/MODERN%20MODS-BIGGER%20SYSTEMS-111827?style=for-the-badge&labelColor=0D1117)](https://github.com/Modern-Mods)
 
 **Modernized classics, expanded gameplay systems, and original mods built for modern Minecraft.**
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1%20%7C%201.21.1%20%7C%2026.1.2-62B47A?style=flat-square)
 ![NeoForge](https://img.shields.io/badge/Primary%20Loader-NeoForge-EF9D31?style=flat-square)
 ![Projects](https://img.shields.io/badge/Projects-8-7289DA?style=flat-square)
+![License](https://img.shields.io/github/license/Modern-Mods/Shimmerstep?style=flat-square)
 
 </div>
 
@@ -33,6 +33,7 @@ We like **systems**, interoperability, customization, and mods that can become a
 ## Modern Foundry
 
 [![Modern Foundry](https://img.shields.io/github/v/release/Modern-Mods/ModernFoundry?style=flat-square&label=Modern%20Foundry&color=62B47A)](https://github.com/Modern-Mods/ModernFoundry/releases/latest)
+[![Modern Foundry Downloads](https://img.shields.io/curseforge/dt/1651634?style=flat-square&label=Downloads&color=62B47A)](https://www.curseforge.com/minecraft/mc-mods/modern-foundry)
 
 **Forge tools. Refine materials. Make the result yours.**
 
@@ -49,6 +50,7 @@ Inspired by and carrying forward the lineage of **Tinkers' Construct** and relat
 ## Modern Chickens
 
 [![Modern Chickens](https://img.shields.io/github/v/release/Modern-Mods/ModernChickens?style=flat-square&label=Modern%20Chickens&color=F4C542)](https://github.com/Modern-Mods/ModernChickens/releases/latest)
+[![Modern Chickens Downloads](https://img.shields.io/curseforge/dt/1368019?style=flat-square&label=Downloads&color=F4C542)](https://www.curseforge.com/minecraft/mc-mods/modern-chickens)
 
 **Breed it. Roost it. Automate it. Avian domination.**
 
@@ -65,6 +67,7 @@ A modern reimagining of the classic **Chickens + Roost** resource loop with bree
 ## Modern Companions
 
 [![Modern Companions](https://img.shields.io/github/v/release/Modern-Mods/ModernCompanions?style=flat-square&label=Modern%20Companions&color=E58AAE)](https://github.com/Modern-Mods/ModernCompanions/releases/latest)
+[![Modern Companions Downloads](https://img.shields.io/curseforge/dt/1391597?style=flat-square&label=Downloads&color=E58AAE)](https://www.curseforge.com/minecraft/mc-mods/modern-companions)
 
 **Build a party, not just a pet collection.**
 
@@ -80,6 +83,7 @@ A reimagining and expansion of **Human Companions** into a full RPG companion sy
 ## Isotope Logistics
 
 [![Isotope Logistics](https://img.shields.io/github/v/release/Modern-Mods/IsotopeLogistics?style=flat-square&label=Isotope%20Logistics&color=4AA3A2)](https://github.com/Modern-Mods/IsotopeLogistics/releases/latest)
+[![Isotope Logistics Downloads](https://img.shields.io/curseforge/dt/1629587?style=flat-square&label=Downloads&color=4AA3A2)](https://www.curseforge.com/minecraft/mc-mods/isotope-logistics)
 
 **Contain it. Stabilize it. Transport it. Protect it.**
 
@@ -96,6 +100,7 @@ It adds systems such as radioactive capsules, phase locking, Nuclear Entanglopor
 ## Hilt
 
 [![Hilt](https://img.shields.io/github/v/release/Modern-Mods/Hilt?style=flat-square&label=Hilt&color=8B78C6)](https://github.com/Modern-Mods/Hilt/releases/latest)
+[![Hilt Downloads](https://img.shields.io/curseforge/dt/1653251?style=flat-square&label=Downloads&color=8B78C6)](https://www.curseforge.com/minecraft/mc-mods/hilt)
 
 **Shared foundations. Modern mods.**
 
